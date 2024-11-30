@@ -50,10 +50,6 @@ fun CaptainGame() {
             direction.value = "East"
             if (Random.nextBoolean()) {
                 treasureFound.value += 1
-            }
-
-            if (Random.nextBoolean()) {
-                treasureFound.value += 1
                 stormOrTreasure.value = "Found a Trasure!"
             } else {
                 stormOrTreasure.value = "Storm Ahead!"
@@ -63,9 +59,6 @@ fun CaptainGame() {
         }
         Button(onClick = {
             direction.value = "West"
-            if (Random.nextBoolean()) {
-                treasureFound.value += 1
-            }
             if (Random.nextBoolean()) {
                 treasureFound.value += 1
                 stormOrTreasure.value = "Found a Trasure!"
@@ -79,9 +72,6 @@ fun CaptainGame() {
             direction.value = "North"
             if (Random.nextBoolean()) {
                 treasureFound.value += 1
-            }
-            if (Random.nextBoolean()) {
-                treasureFound.value += 1
                 stormOrTreasure.value = "Found a Trasure!"
             } else {
                 stormOrTreasure.value = "Storm Ahead!"
@@ -91,9 +81,6 @@ fun CaptainGame() {
         }
         Button(onClick = {
             direction.value = "South"
-            if (Random.nextBoolean()) {
-                treasureFound.value += 1
-            }
             if (Random.nextBoolean()) {
                 treasureFound.value += 1
                 stormOrTreasure.value = "Found a Trasure!"
