@@ -37,7 +37,7 @@ fun MyApp() {
     NavHost(navController = navController, startDestination = "firstscreen") {
         composable("firstscreen") {
             FirstScreen {name->
-                navController.navigate("secondscreen/$name") 
+                navController.navigate("secondscreen/$name")
             }
         }
         composable(route = "secondscreen/{name}") {
